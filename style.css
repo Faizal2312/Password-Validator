@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background-color: #f9f5f6;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 30px;
+}
+
+.img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.inputBox {
+  width: 25%;
+  background-color: #f8e8ee;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 1.25rem;
+}
+
+::placeholder {
+  color: darkgray;
+}
+
+.input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: darkgray;
+  font-size: 15px;
+}
+
+.validation {
+  border-radius: 10px;
+  width: 25%;
+  font-size: 17.5px;
+  background-color: #f8e8ee;
+  color: black;
+  padding: 20px 20px;
+  list-style-type: none;
+}
+
+.validation li {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.aimg {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 1037px) {
+  .inputBox {
+    padding: 10px 5px;
+  }
+}

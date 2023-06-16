@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inputBox">
+        <input
+          type="password"
+          name=""
+          id=""
+          placeholder="Password"
+          oninput="validate()"
+          class="input"
+        />
+        <img src="icon/hide.png" alt="" class="img see" />
+      </div>
+
+      <ul class="validation">
+        <li class="lower">
+          <img src="icon/x-mark.png" alt="" class="aimg limg" />
+          At least one lower character
+        </li>
+        <li class="upper">
+          <img src="icon/x-mark.png" alt="" class="aimg uimg" />
+          At least one upper character
+        </li>
+        <li class="number">
+          <img src="icon/x-mark.png" alt="" class="aimg nimg" />
+          At least one number
+        </li>
+        <li class="special">
+          <img src="icon/x-mark.png" alt="" class="aimg simg" />
+          At least one special character
+        </li>
+        <li class="eight">
+          <img src="icon/x-mark.png" alt="" class="aimg eimg" />At least one 8
+          characters
+        </li>
+      </ul>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
